@@ -1,4 +1,3 @@
-from cv2 import threshold
 from selenium import webdriver  # webdriver is a tool to instruct the behabiour of a web browser
 from selenium.webdriver.chrome.service import Service
 from datetime import datetime as dt
