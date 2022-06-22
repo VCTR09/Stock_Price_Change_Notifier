@@ -52,7 +52,7 @@ def send_email(price):
 def main():
   driver = get_driver()  # load the web pag
   while True:
-    time.sleep(10)
+    time.sleep(300)
     element = driver.find_element(by='xpath', value='//*[@id="app_indeks"]/section[1]/div/div/div[2]/span[2]')  # extract a particular element with driver
     text = str(clean_text(element.text))
     
